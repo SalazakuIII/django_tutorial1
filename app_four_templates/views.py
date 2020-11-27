@@ -8,4 +8,4 @@ def index(request):
         "favorite_color" : "turquoise",
         "pets" : ["Bruce", "Fitz", "Georgie"]
     }
-    return render (request, "index.html", context)s
+    return render (request, "index.html", context)
